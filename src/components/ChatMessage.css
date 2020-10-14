@@ -1,0 +1,45 @@
+.text-container {
+  padding: 5px 10px;
+}
+
+.received-message {
+  display: flex;
+}
+
+.sent-message {
+  padding: 8px;
+  color: white;
+  background-color: blue;
+  border-radius: 15px;
+  width: fit-content;
+}
+
+.to-the-right {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.user-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 20px;
+}
+
+.text {
+  margin-left: 10px;
+}
+
+.username {
+  font-size: 10pt;
+  padding-bottom: 5px;
+  color: grey;
+}
+
+.message {
+  background-color: gainsboro;
+  padding: 8px;
+  border-radius: 15px;
+}
